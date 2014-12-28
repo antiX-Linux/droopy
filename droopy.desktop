@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Droopy
+Comment=Serve files via Python web sever
+GenericName=Droopy Web Server
+Exec=droopy.sh
+Icon=droopy.png
+Terminal=false
+Type=Application
+Categories=Application;Network;
+NoDisplay=False

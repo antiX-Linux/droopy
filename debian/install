@@ -1,0 +1,6 @@
+droopy.desktop                 /usr/share/applications/antix
+changelog.gz                   /usr/share/doc/droopy-antix
+copyright                      /usr/share/doc/droopy-antix
+droopy.conf                    /etc/skel/.config/droopy
+bin/*                          /usr/local/bin 
+droopy.png                     /usr/share/pixmaps 
