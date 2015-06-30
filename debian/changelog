@@ -1,3 +1,10 @@
+droopy-antix (0.1.1) unstable; urgency=low 
+ 
+  * droopy.sh: Added check for existence of served folder and create it if missing
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 25 Apr 2015 18:45:00 +0200
+
+
 droopy-antix (0.1.0) unstable; urgency=low 
  
   * Initial Release.

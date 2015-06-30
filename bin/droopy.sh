@@ -2,7 +2,7 @@
 
 
 PROGNAME=${0##*/}
-PROGVERSION="1.0"
+PROGVERSION="1.1"
 
 
 
@@ -131,14 +131,10 @@ if [ "$MISSING1" != "" ] || [ "$MISSING2" != "" ] || [ "$MISSING3" != "" ]; then
    exit 1
 fi
 
-# Verify folder to be served exists
-if ! [ -d $FOLDER ]; then
-   ERRMSG=" $FOLDER \n Was not found \n\n Exiting..."
-   YADBOX="--title="Droopy" --image="error" --button="OK:1""
-   [ "$DISPLAY" = "" ] && echo -e "$ERRMSG"
-   [ "$DISPLAY" != "" ] && yad $YADBOX --text="$ERRMSG"
-   exit 1
-fi
+
+# Ensure the folder to be served exists
+[ -d $FOLDER ] || mkdir $FOLDER
+
 
 # Assign server parameters to the corresponding user specified optional configuration values
 [ "$DOWNLOAD" = "y" ] && DOWNLOAD="--dl" 
