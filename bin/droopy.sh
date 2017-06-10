@@ -2,7 +2,7 @@
 
 
 PROGNAME=${0##*/}
-PROGVERSION="1.1"
+PROGVERSION="1.2"
 
 
 
@@ -144,7 +144,7 @@ fi
 [ "$PEMFILE" != "" ] && PEMFILE="--ssl $PEMFILE"
 
 # Configure the server start command with optional parameters
-STARTSERVER="python /usr/local/bin/droopy $DOWNLOAD $AUTHORISE $PICTURE $MODE"
+STARTSERVER="python /usr/local/bin/droopy $DOWNLOAD $AUTHORISE $PICTURE $MODE $PEMFILE"
 
 
 # -----------------

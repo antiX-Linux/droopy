@@ -1,3 +1,9 @@
+droopy-antix (0.1.2) unstable; urgency=medium
+
+  * droopy.sh: Fixed failure to use pemfile for https
+
+ -- anticapitalista <antix@operamail.com>  Mon, 07 Nov 2016 20:56:39 +0200
+
 droopy-antix (0.1.1) unstable; urgency=low 
  
   * droopy.sh: Added check for existence of served folder and create it if missing
