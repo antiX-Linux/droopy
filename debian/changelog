@@ -1,3 +1,9 @@
+droopy-antix (0.1.3) unstable; urgency=medium
+
+  * Do not show in menu
+
+ -- anticapitalista <antix@operamail.com>  Sat, 01 Jul 2017 18:41:19 +0300
+
 droopy-antix (0.1.2) unstable; urgency=medium
 
   * droopy.sh: Fixed failure to use pemfile for https

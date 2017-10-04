@@ -7,4 +7,4 @@ Icon=droopy.png
 Terminal=false
 Type=Application
 Categories=Application;Network;
-NoDisplay=False
+NoDisplay=True
